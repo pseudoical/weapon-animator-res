@@ -30,6 +30,14 @@ A collection of texture masks and animation previews for the Kirka [weapon anima
 
 <img src="anims/Atlantis_anim01.webp" height="300">
 
+### Beach_texture_mask01.png
+
+<img src="masks/Beach_texture_mask01.png" height="300">
+
+### Beach_anim01.webp
+
+<img src="anims/Beach_anim01.webp" height="300">
+
 ### Blue_Hell_texture_mask01.png
 
 <img src="masks/Blue_Hell_texture_mask01.png" height="300">
@@ -81,6 +89,14 @@ A collection of texture masks and animation previews for the Kirka [weapon anima
 ### Cornfield_anim02.webp
 
 <img src="anims/Cornfield_anim02.webp" height="300">
+
+### Drake_texture_mask01.png
+
+<img src="masks/Drake_texture_mask01.png" height="300">
+
+### Drake_anim01.webp
+
+<img src="anims/Drake_anim01.webp" height="300">
 
 ### Eva_texture_mask01.png
 
@@ -186,6 +202,14 @@ A collection of texture masks and animation previews for the Kirka [weapon anima
 
 <img src="anims/Master_anim02.webp" height="300">
 
+### Nyan_Shark_texture_mask01.png
+
+<img src="masks/Nyan_Shark_texture_mask01.png" height="300">
+
+### Nyan_Shark_anim01.webp
+
+<img src="anims/Nyan_Shark_anim01.webp" height="300">
+
 ### Omen_texture_mask01.png
 
 <img src="masks/Omen_texture_mask01.png" height="300">
@@ -193,6 +217,14 @@ A collection of texture masks and animation previews for the Kirka [weapon anima
 ### Omen_anim01.webp
 
 <img src="anims/Omen_anim01.webp" height="300">
+
+### Pool_Blaster_texture_mask01.png
+
+<img src="masks/Pool_Blaster_texture_mask01.png" height="300">
+
+### Pool_Blaster_anim01.webp
+
+<img src="anims/Pool_Blaster_anim01.webp" height="300">
 
 ### Prismatic_texture_mask01.png
 
