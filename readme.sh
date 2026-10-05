@@ -26,7 +26,7 @@ EOF
 sort -s -t $'\t' -k1,1 |
 while IFS=$'\t' read _ path; do
     file=${path##*/}
-    printf '### %s\n\n<img src="%s" height="300">\n\n' "$file" "$path"
+    printf '### %s\n\n<img src="%s" height="300" loading="lazy">\n\n' "$file" "$path"
 done >> "$OUTPUT"
 
 cat >> "$OUTPUT" <<EOF
