@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weapon Animator Resources</title>
+    <style>
+        body {
+            background: #f3f3f4;
+            color: #2e2e34;
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #2e2e34;
+                color: #f3f3f4;
+            }
+        }
+        body {
+            --width: 350px;
+            --gap: 50px;
+            --columns: 3;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, var(--width));
+            gap: var(--gap);
+            justify-content: center;
+            width: min(100%, calc(var(--columns) * var(--width) + (var(--columns) - 1) * var(--gap)));
+            margin: 0 auto;
+            font-family: sans-serif;
+        }
+        body > div {
+            width: var(--width);
+        }
+        body img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Alien_texture_mask01.png</h3>
+        <a href="masks/Alien_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Alien_texture_mask01.png" alt="Alien_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Alien_anim01.webp</h3>
+        <a href="anims/Alien_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Alien_anim01.webp" alt="Alien_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Alien_anim02.webp</h3>
+        <a href="anims/Alien_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Alien_anim02.webp" alt="Alien_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Ambrosia_texture_mask01.png</h3>
+        <a href="masks/Ambrosia_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Ambrosia_texture_mask01.png" alt="Ambrosia_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Ambrosia_anim01.webp</h3>
+        <a href="anims/Ambrosia_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Ambrosia_anim01.webp" alt="Ambrosia_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Atlantis_texture_mask01.png</h3>
+        <a href="masks/Atlantis_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Atlantis_texture_mask01.png" alt="Atlantis_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Atlantis_anim01.webp</h3>
+        <a href="anims/Atlantis_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Atlantis_anim01.webp" alt="Atlantis_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Beach_texture_mask01.png</h3>
+        <a href="masks/Beach_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Beach_texture_mask01.png" alt="Beach_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Beach_anim01.webp</h3>
+        <a href="anims/Beach_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Beach_anim01.webp" alt="Beach_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Blue_Hell_texture_mask01.png</h3>
+        <a href="masks/Blue_Hell_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Blue_Hell_texture_mask01.png" alt="Blue_Hell_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Blue_Hell_anim01.webp</h3>
+        <a href="anims/Blue_Hell_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Blue_Hell_anim01.webp" alt="Blue_Hell_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Blue_Hell_anim02.webp</h3>
+        <a href="anims/Blue_Hell_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Blue_Hell_anim02.webp" alt="Blue_Hell_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Blue_Hell_anim03.webp</h3>
+        <a href="anims/Blue_Hell_anim03.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Blue_Hell_anim03.webp" alt="Blue_Hell_anim03.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Checker_texture_mask01.png</h3>
+        <a href="masks/Checker_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Checker_texture_mask01.png" alt="Checker_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Checker_anim01.webp</h3>
+        <a href="anims/Checker_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Checker_anim01.webp" alt="Checker_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Checker_anim02.webp</h3>
+        <a href="anims/Checker_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Checker_anim02.webp" alt="Checker_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Chromaflame_texture_mask01.png</h3>
+        <a href="masks/Chromaflame_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Chromaflame_texture_mask01.png" alt="Chromaflame_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Chromaflame_anim01.webp</h3>
+        <a href="anims/Chromaflame_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Chromaflame_anim01.webp" alt="Chromaflame_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Chromaflame_anim02.webp</h3>
+        <a href="anims/Chromaflame_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Chromaflame_anim02.webp" alt="Chromaflame_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Cornfield_texture_mask01.png</h3>
+        <a href="masks/Cornfield_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Cornfield_texture_mask01.png" alt="Cornfield_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Cornfield_anim01.webp</h3>
+        <a href="anims/Cornfield_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Cornfield_anim01.webp" alt="Cornfield_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Cornfield_anim02.webp</h3>
+        <a href="anims/Cornfield_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Cornfield_anim02.webp" alt="Cornfield_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Drake_texture_mask01.png</h3>
+        <a href="masks/Drake_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Drake_texture_mask01.png" alt="Drake_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Drake_anim01.webp</h3>
+        <a href="anims/Drake_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Drake_anim01.webp" alt="Drake_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Eva_texture_mask01.png</h3>
+        <a href="masks/Eva_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Eva_texture_mask01.png" alt="Eva_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Eva_anim01.webp</h3>
+        <a href="anims/Eva_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Eva_anim01.webp" alt="Eva_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Eva_anim02.webp</h3>
+        <a href="anims/Eva_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Eva_anim02.webp" alt="Eva_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Flarefang_texture_mask01.png</h3>
+        <a href="masks/Flarefang_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Flarefang_texture_mask01.png" alt="Flarefang_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Flarefang_anim01.webp</h3>
+        <a href="anims/Flarefang_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Flarefang_anim01.webp" alt="Flarefang_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Gloom_texture_mask01.png</h3>
+        <a href="masks/Gloom_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Gloom_texture_mask01.png" alt="Gloom_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Gloom_anim01.webp</h3>
+        <a href="anims/Gloom_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Gloom_anim01.webp" alt="Gloom_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Gloom_anim02.webp</h3>
+        <a href="anims/Gloom_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Gloom_anim02.webp" alt="Gloom_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Hell_let_loose_texture_mask01.png</h3>
+        <a href="masks/Hell_let_loose_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Hell_let_loose_texture_mask01.png" alt="Hell_let_loose_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Hell_let_loose_anim01.webp</h3>
+        <a href="anims/Hell_let_loose_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Hell_let_loose_anim01.webp" alt="Hell_let_loose_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Hell_let_loose_anim02.webp</h3>
+        <a href="anims/Hell_let_loose_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Hell_let_loose_anim02.webp" alt="Hell_let_loose_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Ice_Breaker_texture_mask01.png</h3>
+        <a href="masks/Ice_Breaker_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Ice_Breaker_texture_mask01.png" alt="Ice_Breaker_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Ice_Breaker_anim01.webp</h3>
+        <a href="anims/Ice_Breaker_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Ice_Breaker_anim01.webp" alt="Ice_Breaker_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Immortal_texture_mask01.png</h3>
+        <a href="masks/Immortal_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Immortal_texture_mask01.png" alt="Immortal_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Immortal_anim01.webp</h3>
+        <a href="anims/Immortal_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Immortal_anim01.webp" alt="Immortal_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Kyoto_texture_mask01.png</h3>
+        <a href="masks/Kyoto_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Kyoto_texture_mask01.png" alt="Kyoto_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Kyoto_anim01.webp</h3>
+        <a href="anims/Kyoto_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Kyoto_anim01.webp" alt="Kyoto_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Kyoto_anim02.webp</h3>
+        <a href="anims/Kyoto_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Kyoto_anim02.webp" alt="Kyoto_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Lashes_texture_mask01.png</h3>
+        <a href="masks/Lashes_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Lashes_texture_mask01.png" alt="Lashes_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Lashes_anim01.webp</h3>
+        <a href="anims/Lashes_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Lashes_anim01.webp" alt="Lashes_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Lustre_texture_mask01.png</h3>
+        <a href="masks/Lustre_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Lustre_texture_mask01.png" alt="Lustre_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Lustre_anim01.webp</h3>
+        <a href="anims/Lustre_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Lustre_anim01.webp" alt="Lustre_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Lustre_anim02.webp</h3>
+        <a href="anims/Lustre_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Lustre_anim02.webp" alt="Lustre_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Master_texture_mask01.png</h3>
+        <a href="masks/Master_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Master_texture_mask01.png" alt="Master_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Master_anim01.webp</h3>
+        <a href="anims/Master_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Master_anim01.webp" alt="Master_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Master_anim02.webp</h3>
+        <a href="anims/Master_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Master_anim02.webp" alt="Master_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Nyan_Shark_texture_mask01.png</h3>
+        <a href="masks/Nyan_Shark_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Nyan_Shark_texture_mask01.png" alt="Nyan_Shark_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Nyan_Shark_anim01.webp</h3>
+        <a href="anims/Nyan_Shark_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Nyan_Shark_anim01.webp" alt="Nyan_Shark_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Omen_texture_mask01.png</h3>
+        <a href="masks/Omen_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Omen_texture_mask01.png" alt="Omen_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Omen_anim01.webp</h3>
+        <a href="anims/Omen_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Omen_anim01.webp" alt="Omen_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Pool_Blaster_texture_mask01.png</h3>
+        <a href="masks/Pool_Blaster_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Pool_Blaster_texture_mask01.png" alt="Pool_Blaster_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Pool_Blaster_anim01.webp</h3>
+        <a href="anims/Pool_Blaster_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Pool_Blaster_anim01.webp" alt="Pool_Blaster_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Prismatic_texture_mask01.png</h3>
+        <a href="masks/Prismatic_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Prismatic_texture_mask01.png" alt="Prismatic_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Prismatic_anim01.webp</h3>
+        <a href="anims/Prismatic_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Prismatic_anim01.webp" alt="Prismatic_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Raffle_texture_mask01.png</h3>
+        <a href="masks/Raffle_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Raffle_texture_mask01.png" alt="Raffle_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Raffle_anim01.webp</h3>
+        <a href="anims/Raffle_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Raffle_anim01.webp" alt="Raffle_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Raffle_anim02.webp</h3>
+        <a href="anims/Raffle_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Raffle_anim02.webp" alt="Raffle_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Retro_texture_mask01.png</h3>
+        <a href="masks/Retro_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Retro_texture_mask01.png" alt="Retro_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Retro_anim01.webp</h3>
+        <a href="anims/Retro_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Retro_anim01.webp" alt="Retro_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Retro_anim02.webp</h3>
+        <a href="anims/Retro_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Retro_anim02.webp" alt="Retro_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Rift_texture_mask01.png</h3>
+        <a href="masks/Rift_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Rift_texture_mask01.png" alt="Rift_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Rift_anim01.webp</h3>
+        <a href="anims/Rift_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Rift_anim01.webp" alt="Rift_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Rift_anim02.webp</h3>
+        <a href="anims/Rift_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Rift_anim02.webp" alt="Rift_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Smile_texture_mask01.png</h3>
+        <a href="masks/Smile_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Smile_texture_mask01.png" alt="Smile_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Smile_anim01.webp</h3>
+        <a href="anims/Smile_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Smile_anim01.webp" alt="Smile_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Spooky_texture_mask01.png</h3>
+        <a href="masks/Spooky_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Spooky_texture_mask01.png" alt="Spooky_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Spooky_anim01.webp</h3>
+        <a href="anims/Spooky_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Spooky_anim01.webp" alt="Spooky_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Spooky_anim02.webp</h3>
+        <a href="anims/Spooky_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Spooky_anim02.webp" alt="Spooky_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Target_texture_mask01.png</h3>
+        <a href="masks/Target_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Target_texture_mask01.png" alt="Target_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Target_anim01.webp</h3>
+        <a href="anims/Target_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Target_anim01.webp" alt="Target_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Taurus_texture_mask01.png</h3>
+        <a href="masks/Taurus_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Taurus_texture_mask01.png" alt="Taurus_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Taurus_anim01.webp</h3>
+        <a href="anims/Taurus_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Taurus_anim01.webp" alt="Taurus_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Taurus_anim02.webp</h3>
+        <a href="anims/Taurus_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Taurus_anim02.webp" alt="Taurus_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Volcaic_texture_mask01.png</h3>
+        <a href="masks/Volcaic_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Volcaic_texture_mask01.png" alt="Volcaic_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Volcaic_anim01.webp</h3>
+        <a href="anims/Volcaic_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Volcaic_anim01.webp" alt="Volcaic_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Volcaic_anim02.webp</h3>
+        <a href="anims/Volcaic_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Volcaic_anim02.webp" alt="Volcaic_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Watercolor_texture_mask01.png</h3>
+        <a href="masks/Watercolor_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Watercolor_texture_mask01.png" alt="Watercolor_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Watercolor_anim01.webp</h3>
+        <a href="anims/Watercolor_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Watercolor_anim01.webp" alt="Watercolor_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Watercolor_anim02.webp</h3>
+        <a href="anims/Watercolor_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Watercolor_anim02.webp" alt="Watercolor_anim02.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Wrap_texture_mask01.png</h3>
+        <a href="masks/Wrap_texture_mask01.png" target="_blank" rel="noopener noreferrer">
+            <img src="masks/Wrap_texture_mask01.png" alt="Wrap_texture_mask01.png" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Wrap_anim01.webp</h3>
+        <a href="anims/Wrap_anim01.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Wrap_anim01.webp" alt="Wrap_anim01.webp" loading="lazy">
+        </a>
+    </div>
+    <div>
+        <h3>Wrap_anim02.webp</h3>
+        <a href="anims/Wrap_anim02.webp" target="_blank" rel="noopener noreferrer">
+            <img src="anims/Wrap_anim02.webp" alt="Wrap_anim02.webp" loading="lazy">
+        </a>
+    </div>
+</body>
+</html>
