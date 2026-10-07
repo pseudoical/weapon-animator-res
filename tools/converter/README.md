@@ -13,7 +13,7 @@ The converter reads video files from `input/` and writes the resulting animated 
 1. Create the input directory:
 
    ```bash
-   mkdir -p ./input
+   mkdir -p ./tools/converter/input
    ```
 
 2. Add video files to `input/`.
