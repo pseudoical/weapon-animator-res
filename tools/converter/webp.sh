@@ -22,7 +22,7 @@ for input in ./$INPUT_DIR/*; do
             options=(-q:v 100)
             ;;
         mp4)
-            options=(-v:f "fps=50")
+            options=(-c:v libwebp -v:f "fps=50")
             ;;
         *)
             echo "Unknown format: $file"
@@ -30,7 +30,7 @@ for input in ./$INPUT_DIR/*; do
             ;;
     esac
 
-    ffmpeg -i "$input" -c:v libwebp "${options[@]}" -loop 0 "$output" &
+    ffmpeg -i "$input" "${options[@]}" -loop 0 "$output" &
 done
 
 wait
