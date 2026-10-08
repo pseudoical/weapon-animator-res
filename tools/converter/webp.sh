@@ -22,7 +22,7 @@ for input in ./$INPUT_DIR/*; do
             options=(-q:v 100)
             ;;
         mp4)
-            options=(-c:v libwebp -v:f "fps=50")
+            options=(-c:v libwebp -vf "fps=50")
             ;;
         *)
             echo "Unknown format: $file"
